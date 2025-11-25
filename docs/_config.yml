@@ -1,0 +1,39 @@
+title: RBFM-VAR Documentation
+description: Residual-Based Fully Modified Vector Autoregression for mixtures of I(0), I(1), and I(2) processes
+baseurl: "/rbfmvar"
+url: "https://merwanroudane.github.io"
+
+# Theme
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Installation
+    url: /installation
+  - title: Quick Start
+    url: /quickstart
+  - title: User Guide
+    url: /userguide
+  - title: API Reference
+    url: /api
+  - title: Examples
+    url: /examples
+  - title: Theory
+    url: /theory
+  - title: Simulation
+    url: /simulation
+  - title: Changelog
+    url: /changelog
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# MathJax for equations
+mathjax:
+  enable: true
